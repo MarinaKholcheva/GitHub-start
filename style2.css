@@ -1,0 +1,15 @@
+.border {
+    border: 2px
+}
+.color {
+    color: red;
+}
+.background {
+    background-color: royalblue;
+}
+.font-size {
+    font-size: large;
+}
+.font-weight {
+    font-weight: 500;
+}
