@@ -1,14 +1,14 @@
 .border {
-    border: 2px
+    border: 10px
 }
 .color {
     color: red;
 }
 .background {
-    background-color: royalblue;
+    background-color: yellowgreen;
 }
 .font-size {
-    font-size: large;
+    font-size: x-large;
 }
 .font-weight {
     font-weight: 500;
