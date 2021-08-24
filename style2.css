@@ -1,15 +1,33 @@
-.border {
-    border: 10px
+.bord:hover {
+    border-bottom: 5px solid black
 }
-.color {
+.col:hover {
     color: red;
 }
-.background {
+.back:hover {
     background-color: yellowgreen;
 }
-.font-size {
+.fs:hover {
     font-size: x-large;
 }
-.font-weight {
-    font-weight: 500;
+.fw:hover {
+    font-weight: bold;
 }
+.optdiv:hover {
+     border-top: 5px dashed brown;
+     border-bottom: 5px dashed brown;
+
+
+}
+.optdiv {
+    width: 150px;
+    height: 50px;
+    box-sizing: border-box;
+
+
+    border-top: 5px dashed transparent;
+    border-bottom: 5px dashed transparent;
+    padding: 10px;
+    margin: 30px;
+}
+
