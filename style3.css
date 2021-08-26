@@ -9,8 +9,10 @@
     
     margin-right: 15px;
     margin-bottom: 15px;
-
-
+}
+div {
+    display: flex;
+    flex-flow: row wrap;
 }
 
 div div:first-child {
