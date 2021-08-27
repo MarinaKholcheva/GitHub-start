@@ -1,0 +1,40 @@
+.rest {
+    width: 120px;
+    height: 70px;
+    box-sizing: border-box;
+
+    border: 2px solid red;
+    background-color: yellow;
+    font-size: medium;
+    
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+div {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+div div:first-child {
+    background-color: red;
+}
+div div:last-child {
+    background-color: green;
+    margin-left: 50px;
+
+
+}
+div div:nth-child(10) {
+    font-size: 34px;
+}
+div div:nth-child(17) {
+    font-size: 34px;
+}
+div div:nth-child(3n) {
+    border: 3px dashed green;
+
+}
+div div:nth-child(n+6) {
+    background-color: blue;
+    
+}
