@@ -1,0 +1,19 @@
+.container {
+    width: 900px;
+    display: flex;
+    flex-flow: wrap;
+    border: 1px solid black;
+}
+.row {
+    width: 250px;
+    height: 150px;
+    background-color: chocolate;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.row:nth-child(3) {
+    flex-grow: 5;
+}
+.row:nth-child(7) {
+    flex-grow: 10;
+}
