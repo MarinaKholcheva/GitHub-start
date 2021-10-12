@@ -1,0 +1,19 @@
+h2 {
+font-family: Open Sans;
+font-size: 30px;
+line-height: 42px;
+text-align: center;
+color: #212121;
+
+}
+.container {
+    display: grid;
+    width: 1140px;
+    margin: 0 auto;
+    grid-template-rows: 265px 265px;
+    grid-template-columns: repeat(5, 260px);
+}
+.grid-block {
+    background-color: blue;
+
+}

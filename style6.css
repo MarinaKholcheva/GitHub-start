@@ -1,0 +1,27 @@
+.flex-container {
+    width: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: baseline;
+
+}
+.element {
+    width: calc((100% - 9 * 10px) / 10);
+    height: auto;
+    background-color: chocolate;
+    margin-right: 10px;
+    font-size: 28px;
+
+}
+.element:nth-child(2n+1) {
+    font-size: 12px;
+}
+.element:nth-child(5) {
+    font-size: 8px;
+}
+.element:nth-child(3) {
+    font-size: 22px;
+}
+.element:nth-child(8) {
+    font-size: 42px;
+}
