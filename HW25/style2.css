@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  .grid-container {
+    display: grid;
+    margin: 0 auto;
+    width: auto;
+    height: 100vh;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .four {
+      background-color: lightskyblue;
+  }
+  .five {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  .five_one {
+background-color: palevioletred;
+  }
+  .five_two {
+      background-color: palegreen;
+  }
+  .five_three {
+      background-color: brown;
+  }
+  .five_four {
+      background-color: bisque;
+  }
+  .six {
+      background-color: chartreuse;
+  }
+  .seven {
+      display: grid;
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr 1fr;
+  }
+.seven_one {
+    background-color: gray;
+}
+.seven_two {
+    background-color: violet;
+}
+.eight {
+    background-color: darkmagenta;
+}
+.nine {
+    display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr;
+}
+.nine_one {
+    background-color: greenyellow;
+
+}
+.nine_two {
+    background-color: pink;
+}

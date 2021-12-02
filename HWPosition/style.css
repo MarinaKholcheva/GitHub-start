@@ -1,0 +1,48 @@
+.container {
+   height: 2800px; 
+   position: relative;
+
+}
+.block1 {
+    height: 2500px;
+    position: absolute;
+    bottom: 0;
+    
+}
+.block1 .restangle {
+    width: 300px;
+    height: 200px;
+    top: 10px;
+    left: 300px;
+    background-color: brown;
+    position: sticky;
+    z-index: 1;
+}
+.block2 {
+    height: 2000px;
+    position: absolute;
+    bottom: 0;
+}
+.block2 .restangle {
+    width: 400px;
+    height: 100px;
+    top: 70px;
+    left: 400px;
+    background-color: orange;
+    position: sticky;
+    z-index: 2;
+}
+.block3 {
+    height: 1500px;
+    position: absolute;
+    bottom: 0;
+}
+.block3 .restangle {
+    width: 200px;
+    height: 200px;
+    top: 50px;
+    left: 700px;
+    background-color: red;
+    position: sticky;
+    z-index: 3;
+}
